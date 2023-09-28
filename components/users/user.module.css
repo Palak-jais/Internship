@@ -1,0 +1,32 @@
+.progressParent{
+    width: 200px;
+    height: 7px;
+    background-color: rgb(5, 5, 37);
+    border-radius:6px;
+}
+.progressChild{
+    width: 70%;
+    height: 7px;
+    border-radius:6px;
+    background-color: brown;
+}
+.userparent{
+    display: flex;
+    justify-content: center;
+}
+.userChild{
+    background-color:rgb(240, 233, 233);
+    border: 1.5px solid blue;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: -8px;
+}
+.dot{
+ width: 7px;
+ height: 7px;
+ margin-right: 4px;
+ margin-top: 3px;
+ background-color: red;
+ border-radius: 50%;
+}

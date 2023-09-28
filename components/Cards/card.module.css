@@ -1,0 +1,42 @@
+.parent{
+    width: 230px;
+    height: 130px;
+    background-color: rgb(16, 7, 103);
+    align-items: center;
+    padding: 10px;
+    border-radius: 5%;
+    font-family: sans-serif;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.imp{
+    color:red;
+    margin-top: 2px;
+    font-size: 10px;
+    display: flex;
+    letter-spacing: 1px;
+}
+.dot{
+   color: white;
+   opacity: 0.8;
+}
+.child{
+    padding: 1px;
+    color: white;
+    line-height: 1.6;
+    font-size: 10px;
+    letter-spacing: 1px;
+
+}
+.due{
+    color: white;
+    opacity: 0.5;
+    font-size: 10px;
+}
+.clock{
+    margin-right: 5px;
+    margin-top: 2px;
+}
