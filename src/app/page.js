@@ -3,7 +3,8 @@ import styles from './page.module.css'
 import Nav1 from '../../components/Navbars/navbar1';
 import Nav2 from '../../components/Navbars/navbar2';
 import LeftSidebar from '../../components/SideBar/leftBar';
-import {AiFillPlusSquare} from 'react-icons/ai';
+import Todos from '../../components/Todos/todos';
+
 export default function Home() {
   return (
     <main className={styles.main}>
@@ -14,6 +15,7 @@ export default function Home() {
     <div className={styles.mainChild2}>
     <Nav1/>
      <Nav2/> 
+     <Todos/>
     </div>
     </div>
     </main>
