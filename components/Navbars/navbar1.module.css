@@ -1,12 +1,12 @@
 .navParent{
-    width: 100%;
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 5px;
-    margin-bottom: 20px;
-    background-color: rgb(7, 3, 56);
+    padding-top: 8px;
+    margin-bottom:5px;
+    background-color: rgb(8, 5, 39);
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 .navChild1{
     width: 30%;
