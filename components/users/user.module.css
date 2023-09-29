@@ -1,7 +1,7 @@
 .progressParent{
     width: 200px;
     height: 7px;
-    background-color: rgb(5, 5, 37);
+    background-color: rgb(13, 13, 75);
     border-radius:6px;
 }
 .progressChild{

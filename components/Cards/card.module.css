@@ -1,11 +1,12 @@
 .parent{
-    width: 230px;
+    width: 200px;
     height: 130px;
     background-color: rgb(16, 7, 103);
     align-items: center;
     padding: 10px;
     border-radius: 5%;
     font-family: sans-serif;
+    margin: 5px;
 }
 .top{
     display: flex;
@@ -39,4 +40,25 @@
 .clock{
     margin-right: 5px;
     margin-top: 2px;
+}
+.moveparent{
+    width: 180px;
+    height: 60px;
+    background-color: rgb(16, 7, 103);
+    align-items: center;
+    padding: 10px;
+    border-radius: 5%;
+    font-family: sans-serif;
+    margin: 5px;
+}
+.move{
+    margin: auto;
+    padding: 20px;
+    width: 100px;
+    height: 20px;
+    border: 2px dotted rgb(41, 41, 157);
+    background-color:rgb(6, 6, 40);
+    color:rgb(41, 41, 157);
+    font-size: 10px;
+    text-align: center;
 }

@@ -1,6 +1,7 @@
 .con{
     padding: 3%;
     width: 180px;
+    height: 100%;
     padding-left: 20px;
     background-color: rgb(8, 5, 39);
 }
