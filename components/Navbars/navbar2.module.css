@@ -2,9 +2,9 @@
 .Nav2Parent{
     display: flex;
     justify-content: space-between;
-    width: 100%;
     padding: 1.5%;
-    background-color: rgb(7, 3, 56);
+    margin: 20px;
+    background-color: rgb(8, 5, 39);
 }
 .collapse{
     width: 98%;

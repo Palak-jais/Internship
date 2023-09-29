@@ -1,0 +1,8 @@
+.mainParent{
+    display: flex;
+    flex-direction:row;
+}
+
+.mainChild2{
+    width: 85%;
+}

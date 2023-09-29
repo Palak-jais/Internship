@@ -1,0 +1,81 @@
+.con{
+    padding: 3%;
+    width: 180px;
+    padding-left: 20px;
+    background-color: rgb(8, 5, 39);
+}
+.MainHeader{
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    font-size: 15px;
+    margin-top: 10px;
+    letter-spacing: 0.5px;
+    color: white;
+    opacity: 0.8;
+}
+.collapse{
+    font-size: 15px;
+    color:rgb(83, 32, 133);
+    margin-top: 10px;
+}
+.main{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    height: 400px;
+}
+.mainMenu{
+    color: white;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+    opacity: 0.8;
+}
+.menus{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.menuDiv{
+  margin-top: 20px;
+}
+.icon{
+    color:rgb(82, 25, 163);
+    padding: 5px;
+    font-size: 15px;
+}
+.text{
+    color:rgb(64, 37, 173);
+    padding: 5px;
+    font-size: 12px;
+}
+.iconsp{
+    color:rgb(165, 161, 161);
+    padding: 5px;
+    font-size: 15px;
+}
+.textsp{
+    color:rgb(165, 161, 161);
+    padding: 5px;
+    font-size: 12px;
+}
+.footerDiv{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: 150px;
+    background-color: rgb(42, 57, 188);
+    padding: 10px;
+    border-radius: 20%;
+}
+.footerText{
+    font-size: 15px;
+    color: white;
+    line-height:1.5;
+    letter-spacing: .5;
+}
+.footerI{
+    font-size: 40px;
+    color: white;
+    margin-left: 10px;
+}
