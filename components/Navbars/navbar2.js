@@ -1,6 +1,6 @@
 "use client"
 import React from "react";
-import styles from './navbar.module.css';
+import styles from './navbar2.module.css';
 import StatusBarNav from "../users/statusBarNav";
 import {BiSolidUserPlus} from 'react-icons/bi';
 import {BiSolidCommentDetail} from 'react-icons/bi';
