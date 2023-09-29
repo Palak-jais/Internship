@@ -1,0 +1,124 @@
+.navParent{
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    margin-bottom: 20px;
+    background-color: rgb(7, 3, 56);
+    display: flex;
+    justify-content: space-between;
+}
+.navChild1{
+    width: 30%;
+    background-color: rgb(38, 14, 136);
+    width: 220px;
+    padding: 5px;
+    border: none;
+    border-top-left-radius:20px;
+    border-bottom-left-radius:20px;
+    border-top-right-radius:20px;
+    border-bottom-right-radius:20px;
+}
+.searchIcon{
+   font-size: 15px;
+   color: white;
+   opacity: 0.5;
+   float: left;
+   padding:2px;
+}
+.searchText{
+    color: white;
+    opacity: 0.5;
+    font-size: 10px;
+    position: relative;
+    left:5px;
+    top:5px;
+    float: left;
+}
+.navChild2{
+    width: 30%;
+    margin-top: 10px;
+    display:flex; 
+    justify-content: space-between;
+}
+.menu{
+   color: rgb(71, 15, 106) ;
+   font-size: 10px;
+   margin-right: 20px;
+   text-decoration: underline;
+   position: relative;
+   bottom: 5px;
+}
+.icons{
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(74, 12, 125);
+}
+.ic{
+    color: rgb(71, 15, 106);
+    font-size: 17px;
+}
+.no{
+    position: relative;
+    bottom:8px;
+    right: 5px;
+    font-size: 12px;
+    color: rgb(58, 166, 215);
+}
+.nos{
+    position: relative;
+    bottom:8px;
+    right: 5px;
+    font-size: 12px;
+    color: rgb(176, 33, 33);
+}
+.navChild3{
+    width:fit-content;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+   
+}
+.profile{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.lang{
+    background-color:rgb(38, 14, 136);
+    border:none;
+    padding: 10px;
+    color: white;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+    font-size: 10px;
+    margin-right: 10px;
+}
+.lanIcon{
+    color: white;
+    opacity: 0.5;
+    position: relative;
+    left: 2px;
+    top:2px;
+}
+.texts{
+    padding: 5px;
+}
+.text1{
+   font-size: 10px;
+   color: white;
+}
+.text2{
+    font-size: 7px;
+    color:blue;
+}
+.down{
+  color: rgb(71, 15, 106);
+  font-size: 15px;
+  position: relative;
+  top: 8px;
+}
+

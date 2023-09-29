@@ -1,3 +1,4 @@
+/* This is CSS for Navbar 2 */
 .Nav2Parent{
     display: flex;
     justify-content: space-between;
@@ -53,12 +54,14 @@
 }
 .leftChild3{
     display: flex;
-    width: 45%;
+    width:40%;
     
 }
 .RightChild3{
     display: flex;
-    width: 40%;   
+    margin-right: 20px;
+    width:fit-content;;   
+
 }
 .invite{
     min-width: fit-content;
@@ -141,6 +144,7 @@
     font-weight: 500;
     display: flex;
     width: fit-content;
+    float: right;
 }
 .progressBar{
     margin-right: 10px;
