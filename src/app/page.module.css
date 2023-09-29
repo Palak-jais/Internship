@@ -6,3 +6,8 @@
 .mainChild2{
     width: 85%;
 }
+@media(max-width:820px){
+    .mainChild2{
+        width: 100%;
+    }
+}
