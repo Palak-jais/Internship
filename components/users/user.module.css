@@ -10,6 +10,12 @@
     border-radius:6px;
     background-color: brown;
 }
+.progressChildNav{
+    width: 40%;
+    height: 7px;
+    border-radius:6px;
+    background-color:rgb(112, 58, 210);
+}
 .userparent{
     display: flex;
     justify-content: center;
@@ -29,4 +35,47 @@
  margin-top: 3px;
  background-color: red;
  border-radius: 50%;
+}
+.userChildActive{
+    background-color:rgb(190, 36, 187);
+    border: 1.5px solid rgb(190, 36, 187);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: -8px;
+    font-size: 10px;
+    font-weight: 600;
+    align-items: center;
+}
+.no{
+    position: relative;
+    top:5px;
+    left: 5px;
+}
+.ringContainer{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.ring{
+    width: 18px;
+    height: 18px;
+    border: 7px solid red;
+    border-radius: 50%;
+    position: relative;
+    top:5px;
+    left: 5px;
+}
+.squareContainer{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
