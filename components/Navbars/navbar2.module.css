@@ -54,7 +54,8 @@
 }
 .leftChild3{
     display: flex;
-    width:40%;
+    flex-wrap: wrap;
+    width:fit-content;
     
 }
 .RightChild3{
@@ -158,4 +159,57 @@
     color: white;
     opacity: 0.7;
     font-weight: 700;
+}
+@media (min-width: 950px) and (max-width: 1065px){
+    .progress{    
+        display:block;
+    }
+}
+@media  (min-width: 820px) and(max-width:949px){
+    .progress{    
+        display:block;
+    }
+    .edit{
+     margin-top: 5px;
+    }
+    .comment{
+        margin-top: 5px;
+    }
+    .invite{
+        margin-top: 5px;
+    }
+    .comments{
+        margin-top: 5px;
+    }
+}
+@media(max-width:820px){
+    .Nav2Parent{
+        padding:5px;
+        margin: 5px;
+        background-color: rgb(8, 5, 39);
+    }
+    .progress{    
+        margin-top: 10px;
+    }
+    .edit{
+        margin-top: 5px;
+       }
+       .comment{
+           margin-top: 5px;
+       }
+       .invite{
+           margin-top: 5px;
+       }
+       .comments{
+           margin-top: 5px;
+       }
+       .Nav2Child3{
+        display: block;
+       }
+       .RightChild3{
+        margin-top: 5px;
+       }
+       .child1RightInfoParent{
+        display: none;
+       }
 }

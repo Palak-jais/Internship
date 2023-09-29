@@ -1,0 +1,81 @@
+.navParent{
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    margin-bottom:5px;
+    background-color: rgb(8, 5, 39);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    display: none;
+}
+.hidden{
+    display: flex;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    width: 150px;
+    justify-content: space-between;
+}
+.hiddenMenu{
+    font-size: 10px;
+    font-weight: 700;
+    position: relative;
+    bottom: 7px;
+}
+
+.hiddenIcon{
+    color: blueviolet;
+    font-size: 25px;
+}
+.profile{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.lang{
+    background-color:rgb(38, 14, 136);
+    border:none;
+    padding: 10px;
+    color: white;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+    font-size: 10px;
+    margin-right: 10px;
+}
+.lanIcon{
+    color: white;
+    opacity: 0.5;
+    position: relative;
+    left: 2px;
+    top:2px;
+}
+.texts{
+    padding: 5px;
+}
+.text1{
+   font-size: 10px;
+   color: white;
+}
+.text2{
+    font-size: 7px;
+    color:blue;
+}
+.down{
+  color: rgb(71, 15, 106);
+  font-size: 15px;
+  position: relative;
+  top: 8px;
+}
+
+
+@media(max-width:820px){
+    .navParent{
+        display: flex;
+        justify-content: space-between;
+    }
+}

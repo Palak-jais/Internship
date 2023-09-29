@@ -12,7 +12,7 @@ export default function Todos(){
           <p className={styles.add}><AiFillPlusSquare/></p>
           </div>
             
-            <div>
+            <div className={styles.items}>
                 <Card/>
                 <Card/>
                 <Card/>
@@ -23,7 +23,7 @@ export default function Todos(){
           <p className={styles.name}>In Progress</p>
           <p className={styles.addsp}><AiFillPlusSquare/></p>
           </div>
-            <div>
+            <div className={styles.items}>
                 <Card/>
                 <Card/>
                 
@@ -34,7 +34,7 @@ export default function Todos(){
           <p className={styles.name}>Done</p>
           <p className={styles.addsp}><AiFillPlusSquare/></p>
           </div>
-            <div>
+            <div className={styles.items}>
                 <Card/>
                 <Card/>
                 <Card/>
@@ -45,7 +45,7 @@ export default function Todos(){
           <p className={styles.name}>Revised</p>
           <p className={styles.addsp}><AiFillPlusSquare/></p>
           </div>
-            <div>   
+            <div className={styles.items}>   
             <MoveCard/>      
             </div>
           </div>

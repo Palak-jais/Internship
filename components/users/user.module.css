@@ -18,7 +18,7 @@
 }
 .userparent{
     display: flex;
-    justify-content: center;
+    
 }
 .userChild{
     background-color:rgb(240, 233, 233);
